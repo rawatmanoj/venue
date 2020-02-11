@@ -76,7 +76,8 @@ footer .footer_copyright {
 
 
 .carrousel_wrapper {
-    height:700px;
+    /* height:700px; */
+    height: 100vh;
     overflow: hidden;
 }
 
