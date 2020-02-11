@@ -2,7 +2,7 @@ import React from 'react';
 import './resources/styles.css';
 import Header from './components/header_footer/header'
 import Featured from './components/featured'
-import { lightBlue } from '@material-ui/core/colors';
+import VenueInfo from './components/venueinfo/VenueInfo'
 
 class App extends React.Component {
     render(){
@@ -10,6 +10,7 @@ class App extends React.Component {
             <div className="App" style={{height:"1500px",backgroundColor:"lightBlue"}}>
                 <Header/>
                 <Featured/>
+                <VenueInfo/>
             </div>
         );
     }

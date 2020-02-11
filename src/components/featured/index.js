@@ -1,6 +1,7 @@
 import React from 'react';
 import Slider from "react-slick";
 import Carrousel from './Carrousel';
+import TimeUntil from './TimeUntil';
 const Featured = () => {
     return (
         <div style={{position:'relative'}}>
@@ -14,6 +15,7 @@ const Featured = () => {
                 </div>
 
             </div>
+           <TimeUntil/>
         </div>
     );
 };
